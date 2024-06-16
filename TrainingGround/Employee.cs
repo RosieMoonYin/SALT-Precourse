@@ -6,14 +6,21 @@ namespace TrainingGround;
 
     public class Employee : Person, Iprintable//employee class will inherit Person?
     {
-    public Employee() {}
+    public Employee() 
+    {
+      Addresses = new List<Address>();
+    }
 
             public Employee (string name, string employeeId) : base(name)
       {
         EmployeeId = employeeId;
-    
+        Addresses = new List<Address>();
       } 
     public string? EmployeeId {get; private set;} //made nullable with adding ?
+    public List<Address> Addresses {get; set;}
+
+
+
 
     public string GetPrintString() //get print string method
     {

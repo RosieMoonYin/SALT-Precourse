@@ -18,9 +18,40 @@ public class CollectionTests
 
     }
 
+    [Fact]
+    public void getting_items_out_()
+    {
+        //act
+        var arrString = new string [] {"Name 1", "Name 2"};
+        
+        //assert
+        Assert.Equal("Name 1", arrString[0]);
+        Assert.Equal("Name 2", arrString[1]);
 
+    }
 
+    [Fact]
+    public void showing_object_initializer()
+    {
+        //act
+        var a = new Address();
+        a.Street = "B Street";
+        a.StreetNo = 22;
+        a.City = "Malmo";
 
+        var b = new Address
+        {
+            Street = "B Street",
+            StreetNo = 22,
+            City = "Malmo"
+        };
+
+        //assert 
+        Assert.Equal(a.Street, b.Street);
+        Assert.Equal(a.StreetNo, b.StreetNo);
+        Assert.Equal(a.City, b.City);
+
+    }
 
 
 

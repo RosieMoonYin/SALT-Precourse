@@ -30,13 +30,11 @@ public class PersonTests
     [Fact]
     public void a_person_born_in_1972_is_50_2022()
     {
-        var p = new Person
-        {
-            BirthYear = 1972
-        };
-
-        //act
-        var age = p.GetAge(2022);
+        var p = new Person();
+        p.BirthYear = 1972;
+    
+       //act
+       var age = p.GetAge(2022);
 
        //assert
       Assert.Equal(50, age);

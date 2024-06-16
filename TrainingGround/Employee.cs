@@ -19,7 +19,7 @@ namespace TrainingGround;
     {
         if (Address == null)
         {
-        return @$"{this.Name} ({this.EmployeeId}) No address available";
+        return @$"{this.Name} ({this.EmployeeId}) No address available"; //adding becaus of null problem
         }
         return @$"{this.Name} ({this.EmployeeId}) {this.Address.Street} {this.Address.StreetNo} {this.Address.City}";
     }

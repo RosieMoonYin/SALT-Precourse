@@ -40,7 +40,8 @@ public class Person{
     public enum AgeCategory
     {
         Kid,
-        Adult
+        Adult,
+        Prime
     }
 
 

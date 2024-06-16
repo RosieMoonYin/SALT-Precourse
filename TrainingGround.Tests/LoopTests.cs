@@ -77,6 +77,8 @@ public class LoopTests
     }
     }
 
+    
+    [Fact]
     public void break_stops_loops()
     {
         //arrange

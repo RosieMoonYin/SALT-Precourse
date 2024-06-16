@@ -1,3 +1,5 @@
+using System.Configuration.Assemblies;
+using System.Reflection.Metadata.Ecma335;
 using TrainingGround;
 using static TrainingGround.AgeCalculator;
 public class ConditionalTests 
@@ -34,6 +36,35 @@ public void when_50_then_prime_Age()
     var category = AgeCalculator.GetAgeCategory(p, 2022);
 
     Assert.Equal(AgeCategory.Prime, category);
+
+}
+
+[Fact]
+public void return_under_18_for_kid()
+{
+    var span = AgeCalculator.GetAgeSpan(AgeCategory.Kid);
+
+    Assert.Equal("Under 18 years", span);
+}
+
+//writing test using [theory] and [InlineData] attributes
+[Theory]
+[InlineData(AgeCategory.Adult, "Above 18")]
+public void return_above_18_for_adult(AgeCategory ageCategory, string expectedSpan)
+{
+    var span = AgeCalculator.GetAgeSpan(ageCategory);
+
+    Assert.Equal(expectedSpan, span);
+}
+
+[Theory]
+[InlineData(AgeCategory.Prime, "Exactly 50 - and proud!")]
+
+public void return_exactly_50_for_prime(AgeCategory ageCategory, string expectedSpan)
+{
+    var span = AgeCalculator.GetAgeSpan(ageCategory);
+
+    Assert.Equal(expectedSpan, span);
 
 }
 

@@ -5998,11 +5998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround.Tests/TrainingGround.Tests.csproj",
+      "projectUniqueName": "/Users/salt-dev/Documents/SALT-Precourse/TrainingGround.Tests/TrainingGround.Tests.csproj",
       "projectName": "TrainingGround.Tests",
-      "projectPath": "/Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround.Tests/TrainingGround.Tests.csproj",
+      "projectPath": "/Users/salt-dev/Documents/SALT-Precourse/TrainingGround.Tests/TrainingGround.Tests.csproj",
       "packagesPath": "/Users/salt-dev/.nuget/packages/",
-      "outputPath": "/Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround.Tests/obj/",
+      "outputPath": "/Users/salt-dev/Documents/SALT-Precourse/TrainingGround.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/salt-dev/.nuget/NuGet/NuGet.Config"
@@ -6017,8 +6017,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround/TrainingGround.csproj": {
-              "projectPath": "/Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround/TrainingGround.csproj"
+            "/Users/salt-dev/Documents/SALT-Precourse/TrainingGround/TrainingGround.csproj": {
+              "projectPath": "/Users/salt-dev/Documents/SALT-Precourse/TrainingGround/TrainingGround.csproj"
             }
           }
         }

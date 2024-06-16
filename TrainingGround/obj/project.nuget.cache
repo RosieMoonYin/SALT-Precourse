@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X54tzYn1uQa3yWqv2zBD+q3zu96Xf4/UJNDNAmWFNjBpk7XQjOTGx5S8U3rKdo6OFUUCfIJ/9pywns22Jiq9oQ==",
+  "dgSpecHash": "LZ7mKs/waNehzJYIQ6BcFTyD8wGkLyXykIKejtiJqIfI+VBfHuydjtoNRnM0t1/PKQqxC363BjvaYl2j7oSyfA==",
   "success": true,
-  "projectFilePath": "/Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround/TrainingGround.csproj",
+  "projectFilePath": "/Users/salt-dev/Documents/SALT-Precourse/TrainingGround/TrainingGround.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NpLpitLIQMb6W0bJjnABlbVrENjHMt/LY5CBIHDyrz91KIz7tgxYPBMpSomuixVVnHA4LVMjPl+aQ0Sl2LUmsQ==",
+  "dgSpecHash": "lwfoflhn+BKJiwRfde+Xt/BZOgS9mZKLwoyN6RccOych4n/O+p1mL9f7j/TYfxxKHItrKjESg6cL40FTak7jiA==",
   "success": true,
-  "projectFilePath": "/Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround.Tests/TrainingGround.Tests.csproj",
+  "projectFilePath": "/Users/salt-dev/Documents/SALT-Precourse/TrainingGround.Tests/TrainingGround.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/salt-dev/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/salt-dev/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",

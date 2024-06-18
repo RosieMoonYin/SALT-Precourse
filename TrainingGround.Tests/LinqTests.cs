@@ -98,4 +98,29 @@ public class LinqTests
         Assert.Equal("Aaaron", allWitLongNames[0].Name);
 
     }
+    //.select
+    [Fact]
+    public void filter_people_by_age_only_names()
+    {
+        //arrange
+        var people = new List<Person>
+        {
+            new Person ("Aaaron"),
+            new Person ("Bea"),
+            new Person ("Caesar"),
+            new Person ("Dave"),
+            
+        };
+        //act
+         var allWithLongNames = people
+        .Where(p => p.Name.Length > 4)
+        .Select(p => p.Name) //we onlty want the name property returned
+        .ToList();
+
+        //assert
+        Assert.Equal(2, allWithLongNames.Count);
+        Assert.Equal("Aaaron", allWithLongNames[0]);
+        Assert.Equal("Caesar", allWithLongNames[1]);
+    }
+
 }

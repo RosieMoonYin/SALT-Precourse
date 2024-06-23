@@ -1,3 +1,5 @@
+using System;
+
 namespace TrainingGround.Tests;
 
     public class KataTests
@@ -47,6 +49,17 @@ namespace TrainingGround.Tests;
             Assert.True(Kata.ValidatePin("1111"));
             Assert.True(Kata.ValidatePin("123456"));
             Assert.True(Kata.ValidatePin("090909"));
+        }
+        [Fact]
+        public void LetterChangesTest()
+        {   
+            Console.WriteLine(Kata.LetterChanges("Hello3"));
+            Console.WriteLine(Kata.LetterChanges("Rosie"));
+            Console.WriteLine(Kata.LetterChanges("Defghi"));
+            Console.WriteLine(Kata.LetterChanges("Hello12d"));
+            Console.WriteLine(Kata.LetterChanges("Hello12n"));
+            Console.WriteLine(Kata.LetterChanges("aBCdEfghi"));
+
         }
     }
 

@@ -10,3 +10,15 @@
 /Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround/obj/Debug/net6.0/refint/TrainingGround.dll
 /Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.pdb
 /Users/salt-dev/salt/precourse/dotnet-trainingGround/TrainingGround/obj/Debug/net6.0/ref/TrainingGround.dll
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/bin/Debug/net6.0/TrainingGround.deps.json
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/bin/Debug/net6.0/TrainingGround.dll
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/bin/Debug/net6.0/TrainingGround.pdb
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/TrainingGround.csproj.AssemblyReference.cache
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/TrainingGround.GeneratedMSBuildEditorConfig.editorconfig
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/TrainingGround.AssemblyInfoInputs.cache
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/TrainingGround.AssemblyInfo.cs
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/TrainingGround.csproj.CoreCompileInputs.cache
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/TrainingGround.dll
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/refint/TrainingGround.dll
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/TrainingGround.pdb
+/Users/salt-dev/Documents/SALT-Precourse copy/TrainingGround/obj/Debug/net6.0/ref/TrainingGround.dll

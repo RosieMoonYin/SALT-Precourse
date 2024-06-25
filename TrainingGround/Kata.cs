@@ -30,7 +30,7 @@ public class Kata
         //char[] arr = myString.Select(c => (char) (c + 1)).ToArray(); 
 
         char[] myArr = myString.ToCharArray();
-//StringBuilder myStringResult = new StringBuilder();
+        StringBuilder myStringResult = new StringBuilder();
         //string myStringResult = new string(myArr);
 
         for (int i = 0; i < myString.Length; i++)
@@ -60,10 +60,10 @@ public class Kata
                     break;
                 }
             }
-            myString = myArr[i].ToString();
-            //myStringResult.Append(myArr[i]);
+            
+            myStringResult.Append(myArr[i]);
         }
-        //myString = myStringResult.ToString();
+        myString = myStringResult.ToString();
         return myString;
     }
 
